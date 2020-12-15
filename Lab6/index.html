@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Lab6</title>
+</head>
+
+<body>
+    <div>
+        <h2>Список:</h2>
+        <ul>
+            <li>Ну это список</li>
+            <li>и он тут очень нужен</li>
+        </ul>
+    </div>
+    <div>
+        <form>
+            <legend>Отдай свои персональные данные, пожалуйста</legend>
+            <p>
+                <label>Имя </label><input type="text" id="name">
+            </p>
+            <p>
+                <label>Фамилия </label><input type="text" id="secondname">
+            </p>
+            <p>
+                <label>Email </label><input type="email" id="email">
+            </p>
+            <p>
+                <label>Возраст </label><input type="number" min="1" max="100" step="1">
+            </p>
+            <p>
+                <label>Пол </label>
+                <input type="radio" name="sex" value="муж" checked>муж
+                <input type="radio" name="sex" value="жен">жен
+            </p>
+            <p>
+                <label>Вы осуждаете пункт выше?</label>
+                <input type="checkbox" name="yes" value="yes" checked>Да
+                <input type="checkbox" name="no" value="no">Нет
+            </p>
+            <p>
+                <label for="country">Cтрана</label>
+                <select name="country">
+                    <option>Выберите страну проживания</option>
+                    <option value="Россия">Россия</option>
+                    <option value="Гамбия">Гамбия</option>
+                </select>
+            </p>
+            <p>
+                <label>Ваша информация (желательно банковская):</label><br>
+                <textarea name="bank"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Отправить свои данные">
+            </p>
+            <p>
+                <button type="submit"><img src="1.jpg"><br>Попробуй нажать</button>
+            </p>
+        </form>
+    </div>
+</body>

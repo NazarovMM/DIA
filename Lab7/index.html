@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <title>Lab7</title>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Панель навигации</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="second.html">Ссылка</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Список
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="third.html">Что-то</a>
+                            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Nail_(fastener)">Ещё одно что-то</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Что-то для чего то</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Размер DxL</th>
+                <th scope="col">1000 штук в граммах</th>
+                <th scope="col">Штук в 1 кг</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>0.8x8</td>
+                <td>32</td>
+                <td>31250</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>0.8x12</td>
+                <td>34</td>
+                <td>29412</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>1.0x16</td>
+                <td>100</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td colspan="3" align="center">...</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>6.0x200</td>
+                <td>43100</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
