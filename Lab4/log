@@ -1,0 +1,20 @@
+2020-11-19T13:34:34.174480
+2020-11-19T13:34:38.756215
+2020-11-19T13:34:43.552479
+2020-11-19T13:57:52.312024- No rights to enter, attempted by user
+2020-11-25T15:30:08.022742- No rights to enter, attempted by user with request: select * from passwd
+2020-11-25T15:31:14.473790- No rights to enter, attempted by user with request: select * from passwd
+2020-11-25T15:31:52.783188- No rights to enter, attempted by user with request: select * from passwd
+2020-11-25T15:31:52.783455- User alexeyzer Logging successfully request: select * from todo
+2020-11-25T15:55:56.787078- No rights to enter, attempted by user with request: select * from passwd
+2020-11-25T15:55:56.787958- User alexeyzer Logging successfully request: select * from todo
+2020-11-25T16:00:36.698988- No rights to enter, attempted by user with request: select * from passwd
+2020-11-25T16:00:36.699575- User alexeyzer Logging successfully request: select * from todo
+2020-11-25T17:51:53.780065- No rights to enter, attempted by user with request: select * from passwd
+2020-11-25T17:52:24.785703- No rights to enter, attempted by user with request: select * from passwd
+2020-11-25T17:52:26.099409- No rights to enter, attempted by user with request: select * from passwd
+2020-11-25T17:53:03.556789- No rights to enter, attempted by user with request: select * from passwd
+2020-11-25T17:54:12.155032- No rights to enter, attempted by user with request: select * from passwd
+2020-11-25T17:54:20.407648- No rights to enter, attempted by user with request: select * from passwd
+2020-11-25T17:54:55.620650- No rights to enter, attempted by user with request: select * from passwd
+2020-11-25T17:54:55.824892- User alexeyzer Logging successfully request: select * from todo
