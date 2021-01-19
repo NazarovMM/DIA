@@ -1,0 +1,14 @@
+{% extends 'lab8/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<h1>Составы команд:</h1>
+<div class="list-group">
+  {% for team in teams %}
+  <a href="{% url 'detail' %}?id={{ team.id }}" class="list-group-item list-group-item-action">{{ team.title }}</a>
+  {% endfor %}
+</div>
+<br>
+<img src="{% static 'images/teams.jpg' %}" alt="Составы команд" class="img-fluid">
+{% endblock %}

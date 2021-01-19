@@ -1,0 +1,28 @@
+{% extends 'lab8/base.html' %}
+
+{% block content %}
+<h1>{{ team.title }}:</h1>
+
+<table class="table">
+  <tbody>
+    <tr>
+      <td>Шасси:</td>
+      <td>{{ team.chassis }}</td>
+      <td></td>
+      <td>Мотор:</td>
+      <td>{{ team.engine }}</td>
+    </tr>
+    <tr>
+      <td>Руководитель:</td>
+      <td>{{ team.head }}</td>
+      <td></td>
+      <td>База:</td>
+      <td>{{ team.base }}</td>
+    </tr>
+    <tr>
+      <td colspan="5"><img src="/media/{{ team.img }}" alt="{{ team.title }}" class="img-fluid"></td>
+    </tr>
+  </tbody>
+</table>
+
+{% endblock %}
